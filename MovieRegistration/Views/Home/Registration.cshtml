@@ -1,0 +1,23 @@
+﻿<h2>Movie Registration</h2>
+
+<form action="Result">
+    <p>ID</p>
+    <input type="number" name="ID" required/>
+    <p>Title</p>
+    <input type="text" name="Title" maxlength="50" required/>
+    <p>Genre</p>
+    <select name="Genre" required>
+        <option value="Animation">Animation</option>
+        <option value="Comedy">Comedy</option>
+        <option value="Drama">Drama</option>
+        <option value="Horror">Horror</option>
+        <option value="Thriller">Thriller</option>
+    </select>
+    <p>Year</p>
+    <input type="number" name="Year" required min="1880" max="2021"/>
+    <p>Actors</p>
+    <input type="text" name="Actors" required/>
+    <p>Directors</p>
+    <input type="text" name="Directors" required/>
+    <input type="submit" />
+</form>
